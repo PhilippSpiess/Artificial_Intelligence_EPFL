@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<agents>
+	<!-- A list of agents and their behavior classes -->
+	
+	<!-- #### AUCTION AGENTS ### -->
+	<agent name="auction-random">
+		<set class-path="bin/"/>
+		<set class-name="AuctionTemplate"/>
+	</agent>
+	<agent name="auction-routes-naive">
+		<set class-path="bin/"/>
+		<set class-name="AuctionMain"/>
+		<set costs="Routes"/>
+		<set bid="Naive"/>
+	</agent>
+	<agent name="auction-routes-classic">
+		<set class-path="bin/"/>
+		<set class-name="AuctionMain"/>
+		<set costs="Routes"/>
+		<set bid="classic"/>
+	</agent>
+	<agent name="auction-routes-nolearn">
+		<set class-path="bin/"/>
+  		<set class-name="AuctionMain"/>
+		<set costs="Routes"/>
+		<set bid="nolearn"/>
+	</agent>
+	<agent name="auction-routes-future">
+		<set class-path="bin/"/>
+		<set class-name="AuctionMain"/>
+		<set costs="Routes"/>
+		<set bid="FutureNoLearn"/>
+	</agent>
+	
+</agents>
