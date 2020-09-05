@@ -1,7 +1,9 @@
 # AI projects I have been working on during my Master's at EPFL
 
-## Model Predictive Control
-In a team of three, we implemented model predictive control in Matlab to simulate a quadcopter with non-linear dynamics tracking a references and successfully rejecting noise.
+## Artificial Neural Networks
+
+- Deep neural network to classify MNIST and Fashion MNIST images
+- Monte Carlo Policy-gradient algoritm using a deep neural network as a function approximator to teach a simulated spaceship how to « land on the moon ». The network takes as input 8 states and returns 4 control output. We also implemented a value network to increase the performance of the program : an adaptive baseline. 
 
 ## Data Science for Business
 In a team of three and at the end of the course « Data science for business », we implemented a
