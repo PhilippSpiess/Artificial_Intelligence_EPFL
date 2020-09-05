@@ -1,4 +1,6 @@
-# AI projects I have been working on during my Master's at EPFL
+# AI/ML
+
+AI projects I have been working on during my Master's at EPFL
 
 ## Artificial Neural Networks
 
