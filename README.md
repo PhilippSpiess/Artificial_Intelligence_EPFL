@@ -9,8 +9,9 @@ AI projects I have been working on during my Master's at EPFL
 
 ## Data Science for Business
 
-In a team of three and at the end of the course « Data science for business », we implemented a
-jupyter notebook with all the steps necessary to predict whether companies with specific attributes were likely to observe the price rise or fall after their Initial Public Offering. The predictions are based on an existing dataset of many companies with their pre and post IPO valuations. Two significant steps of the project involved data preprocessing and text analysis with NLP. We predicted the probabilities that the price would go up or down and even the price itself. The AUC score we obtained for the first task is 0.7. It allows us to think that the model could be used to filter the best opportunities in the market.
+For the final project of the course « Data science for business », we had to predict whether companies with specific attributes were likely to have their share price rise or fall right after the Initial Public Offering. The predictions are based on an existing dataset of many companies with their pre and post IPO valuations.
+
+Two significant steps of the project involved data preprocessing and text analysis with NLP. We predicted the probability that the price would go up or down and even the price itself. The AUC score we obtained for the first task is 0.7. It allows us to think that the model could be used to filter the best opportunities in the market.
 
 ## Intelligent Agents
 
